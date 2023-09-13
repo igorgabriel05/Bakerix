@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(206, 126, 70);
+}
+
+form h1{
+    color: aliceblue;
+}
+
+#id{
+    display: none;
+}
+
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+form{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(54, 107, 241);
+}
+
+a:hover {
+    background-color: rgb(33, 91, 236);
+}

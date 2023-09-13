@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <title>Cadastramento de Alunos!!</title>
+    <link rel="stylesheet" href="css/cadastrar.css">
+
+    <script src="js/variaveis.js"  defer></script>
+    <script src="js/functions.js"  defer></script>
+    <script src="js/selecionar.js" defer></script>
+    <script src="js/listar.js"     defer></script>
+    <script src="js/cadastrar.js"  defer></script>
+    <script src="js/alterar.js"    defer></script>
+    <script src="js/remover.js"    defer></script>
+</head>
+
+<body>
+    <form>
+        <h1>Cadastrar Produtos</h1>
+        <input type="text" class="form-control" id="id">
+        <input type="text" class="form-control" id="nome"      placeholder="Nome">
+        <input type="text" class="form-control" id="img"       placeholder="Exemplo da img: img/pao-frances.jpg">
+        <input type="text" class="form-control" id="descricao" placeholder="Descrição">
+        <input type="text" class="form-control" id="preco"     placeholder="Exemplo preço: R$8,99 kg">
+        
+        <input type="button" id="cadastrar" value="Cadastrar"        class="btn btn-info">
+        <input type="button" id="navegar"   value="Voltar (Padaria)" class="btn btn-info">
+        <input type="button" id="alterar"   value="Alterar"          class="btn btn-warning visually-hidden">
+        <input type="button" id="remover"   value="Remover"          class="btn btn-danger visually-hidden">
+        <input type="button" id="cancelar"  value="Cancelar"         class="btn btn-secondary visually-hidden">
+    </form>
+    <br>
+    <h1>Produtos</h1>
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>#           </th>
+                <th>Nome        </th>
+                <th>Imagem      </th>
+                <th>Descricao   </th>
+                <th>Preço       </th>
+                <th>Selecionar  </th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <br><br><br><br><br>
+    <!-- <button class="btn btn-success">Selecionar</button> -->
+</body>
+
+</html>
